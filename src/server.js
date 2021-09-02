@@ -13,7 +13,7 @@ const onRequest = (request, response) => {
   response.end();
 };
 
-const bob = 'aa';
+//const bob = 'aa';
 
 http.createServer(onRequest).listen(port);
 
